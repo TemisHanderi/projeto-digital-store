@@ -39,6 +39,7 @@ const HeaderStyled = styled.header`
         padding-right: 150px;
         padding-top: 35px;
         padding-bottom: 30px;
+        background-color: var(--white);
     }
 
     .main-header{

@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+:root{
+    --primary: #C92071;
+    --secondary: #B5B6F2;
+    --tertiary: #991956;
+    --error: #EE4266;
+    --success: #52CA76;
+    --warning: #F6AA1C;
+    /* Grayscale */
+    --dark-gray: #1F1F1F;
+    --dark-gray-2: #474747;
+    --dark-gray-3: #666666;
+    --light-gray: #8F8F8F;
+    --light-gray-2: #CCCCCC;
+    --light-gray-3: #F5F5F5;
+    --white: #FFFFFF;
+}
+
+.collections{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    gap: 20px;
+    position: relative;
+    font-family: 'Inter', sans-serif;
+}
+
+.price-discount{
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 20px;
+    background-color: #E7FF86;
+    color: var(--dark-gray);
+    font-weight: bold;
+    padding: 5px 15px 5px 15px;
+    border-radius: 50px;
+}
+
+.buy-button{
+    position: absolute;
+    bottom: 80px;
+    background-color: var(--light-gray-3);
+    color: var(--primary);
+    font-weight: bold;
+    padding: 15px 45px 15px 45px;
+    border-radius: 10px;
+}
+
+.buy-button:hover{
+    cursor: pointer;
+}
+
+.image-collection{
+    width: 525px;
+    border-radius: 10px;
+}
+
+.collection-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    width: 100%;
+    gap: 50px;
+}
+
+svg{
+    fill: var(--light-gray);
+}
+
+.icon{
+    background-color: var(--white);
+    padding: 25px;
+    border-radius: 50%;
+}
+
+.icon:hover{
+    scale: 102%;
+    cursor: pointer;
+    box-shadow: 0px 0px 25px var(--light-gray-2);
+    transition: 0.5s;
+}
+
+.icon:hover svg{
+    fill: var(--primary);
+}
+
+.image-icon{
+    width: 70px;
+}
+
+.collection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title-icon{
+    margin-top: 16px;
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--dark-gray-2);
+}

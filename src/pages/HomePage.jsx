@@ -1,11 +1,43 @@
 import "bootstrap-icons/font/bootstrap-icons.css";
 import "./HomePage.css";
 import Section from "../components/Section";
+import Gallery from "../components/Gallery";
 
 const HomePage = () => {
   return (
     <>
-      {/* aqui teremos um banner onde vai ter um carrossel */}
+      <Gallery
+        className="teste"
+        width="100%"
+        height="681px"
+        radius="4px"
+        showDots
+        images={[
+          {"src": "/produc-image-5.png",
+            "title": "Queima de estoque Nike!",
+            "subtitle": "Melhores ofertas personalizadas",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+          },
+          {"src": "/produc-image-3.png",
+            "title": "teste",
+            "subtitle": "testezinho",
+            "description": "descricao do teste testezinho"
+          },
+          {"src": "/produc-image-4.png",
+            "title": "teste",
+            "subtitle": "testezinho",
+            "description": "descricao do teste testezinho"
+          },
+          {"src": "/produc-image-1.png",
+            "title": "teste",
+            "subtitle": "testezinho",
+            "description": "descricao do teste testezinho"
+          },
+        ]}
+        title="teste"
+        subdescription="testezinho"
+        description="lorem "
+      ></Gallery>
       <Section title="Coleções em destaque" textAlign="left">
         <div className="collections">
           <div className="collection-card">

@@ -9,6 +9,15 @@ const NotFoundStyled = styled.body`
         align-items: center;
         flex-direction: column;
     }
+    h1{
+        padding: 0;
+        margin: 0;
+        font-size: 64px;
+    }
+    a{
+        color: blue;
+        text-decoration: underline;
+    }
 `
 
 const NotFound = () => {

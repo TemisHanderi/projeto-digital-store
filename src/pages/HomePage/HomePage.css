@@ -1,22 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
-
-:root{
-    --primary: #C92071;
-    --secondary: #B5B6F2;
-    --tertiary: #991956;
-    --error: #EE4266;
-    --success: #52CA76;
-    --warning: #F6AA1C;
-    /* Grayscale */
-    --dark-gray: #1F1F1F;
-    --dark-gray-2: #474747;
-    --dark-gray-3: #666666;
-    --light-gray: #8F8F8F;
-    --light-gray-2: #CCCCCC;
-    --light-gray-3: #F5F5F5;
-    --white: #FFFFFF;
-}
-
 .collections{
     display: flex;
     justify-content: space-between;
@@ -24,34 +5,38 @@
     width: 100%;
     gap: 20px;
     position: relative;
-    font-family: 'Inter', sans-serif;
 }
 
 .collection-card{
     position: relative;
+    width: 100%;
+}
+
+.card-infos{
+    width: 100%;
 }
 
 .price-discount{
     margin: 0;
     padding: 0;
     position: absolute;
-    top: 20px;
+    bottom: 100px;
     left: 25px;
     background-color: #E7FF86;
     color: var(--dark-gray);
     font-weight: bold;
-    padding: 5px 15px 5px 15px;
+    padding: 0.3rem 1rem 0.3rem 1rem;
     border-radius: 50px;
 }
 
 .buy-button{
     position: absolute;
-    bottom: 80px;
+    bottom: 30px;
     left: 25px;
     background-color: var(--light-gray-3);
     color: var(--primary);
     font-weight: bold;
-    padding: 15px 45px 15px 45px;
+    padding: 1rem 3rem 1rem 3rem;
     border-radius: 10px;
 }
 
@@ -60,26 +45,28 @@
 }
 
 .image-collection{
-    width: 525px;
+    width: 100%;
     border-radius: 10px;
 }
 
 .collection-icons{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     margin-top: 50px;
     width: 100%;
-    gap: 50px;
+    gap: 4rem;
 }
 
 svg{
     fill: var(--light-gray);
+    width: 4rem;
 }
 
 .icon{
     background-color: var(--white);
-    padding: 25px;
+    padding: 1rem;
     border-radius: 50%;
 }
 
@@ -107,7 +94,19 @@ svg{
 
 .title-icon{
     margin-top: 16px;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: bold;
     color: var(--dark-gray-2);
+}
+
+@media(max-width:938px){
+    .collections{
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: center;
+    }
+
+    .collection-card{
+        width: 75%;
+    }
 }

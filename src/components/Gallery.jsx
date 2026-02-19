@@ -36,7 +36,7 @@ const Gallery = ({className = "", width = "100%", height = "100%", radius = "0px
                                 <h3 className="gallery-subtitle">{image.subtitle}</h3>
                                 <h1 className="gallery-title">{image.title}</h1>
                                 <p className="gallery-description">{image.description}</p>
-                                <button className="gallery-button">Ver Ofertas</button>
+                                <button className="gallery-button">Descobrir</button>
                             </div>
                         </div>
                     ))}

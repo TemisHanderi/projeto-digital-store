@@ -17,3 +17,7 @@
     --light-gray-3: #F5F5F5;
     --white: #FFFFFF;
 }
+
+* {
+    font-family: 'Inter', sans-serif;
+}

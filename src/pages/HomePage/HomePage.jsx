@@ -1,13 +1,13 @@
 import "bootstrap-icons/font/bootstrap-icons.css";
 import "./HomePage.css";
-import Section from "../components/Section";
-import Gallery from "../components/Gallery";
+import Section from "../../components/Section";
+import Gallery from "../../components/Gallery";
 
 const HomePage = () => {
   return (
     <>
       <Gallery
-        className="teste"
+        className="home"
         width="100%"
         height="681px"
         radius="4px"
@@ -19,19 +19,19 @@ const HomePage = () => {
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
           },
           {"src": "/produc-image-3.png",
-            "title": "teste",
-            "subtitle": "testezinho",
-            "description": "descricao do teste testezinho"
+            "title": "Novos Nike SB Dunk High",
+            "subtitle": "Modelos que nunca saem de cena!",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
           },
           {"src": "/produc-image-4.png",
-            "title": "teste",
-            "subtitle": "testezinho",
-            "description": "descricao do teste testezinho"
+            "title": "AllStar Old School Edition",
+            "subtitle": "Confira os clássicos atemporais!",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
           },
           {"src": "/produc-image-1.png",
-            "title": "teste",
-            "subtitle": "testezinho",
-            "description": "descricao do teste testezinho"
+            "title": "Chegou a nova linha Jordan!",
+            "subtitle": "Nova coleção já disponível!",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
           },
         ]}
         title="teste"
@@ -76,8 +76,6 @@ const HomePage = () => {
           <div className="collection">
             <div className="icon">
               <svg
-                width="70px"
-                height="70px"
                 viewBox="0 0 512.000000 512.000000"
               >
                 <g transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)">
@@ -115,8 +113,6 @@ const HomePage = () => {
           <div className="collection">
             <div className="icon">
               <svg
-                height="70px"
-                width="70px"
                 viewBox="0 0 512 512"
               >
                 <g transform="translate(1 1)">
@@ -149,8 +145,6 @@ const HomePage = () => {
           <div className="collection">
             <div className="icon">
               <svg
-                width="70px"
-                height="70px"
                 viewBox="0 0 512.000000 512.000000"
               >
                 <g transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)">
@@ -185,8 +179,6 @@ const HomePage = () => {
           <div className="collection">
             <div className="icon">
               <svg
-                width="70px"
-                height="70px"
                 viewBox="0 0 512.000000 512.000000"
               >
                 <g transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)">
@@ -235,8 +227,6 @@ const HomePage = () => {
           <div className="collection">
             <div className="icon">
               <svg
-                width="70px"
-                height="70px"
                 viewBox="0 0 512.000000 512.000000"
               >
                 <g
@@ -298,7 +288,7 @@ const HomePage = () => {
           </div>
         </div>
       </Section>
-      <Section title="Produtos em alta" textAlign="left" link={{ text: "Ver todos →", href: "https://google.com" }}
+      <Section title="Produtos em alta" textAlign="left" link={{ text: "Ver todos →", href: {} }}
       >
         <p>card dos produtos aqq</p>
       </Section>

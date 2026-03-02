@@ -101,6 +101,79 @@ svg{
     color: var(--dark-gray-2);
 }
 
+.special-offer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--white);
+    margin: 0;
+    width: 100%;
+}
+
+.image-special-offer { 
+    display: grid;
+    place-items: center;
+    box-sizing: border-box;
+    width: 150%;
+}
+
+.gradient-circle { 
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, #eeeeee, #ffffff);
+    grid-area: 1 / 1;
+}
+
+.image-special-offer img { 
+    width: 80%;
+    grid-area: 1 / 1;
+}
+
+.texts-special-offer{
+    padding: 5% 10% 5% 0;
+}
+
+.special-offer-subtitle{
+    font-size: 14px;
+    font-weight: bold;
+    color: var(--primary);
+    margin: 0;
+    padding: 0;
+}
+
+.special-offer-title{
+    font-size: 48px;
+    font-weight: bold;
+    color: var(--dark-gray-2);
+    margin: 0;
+    padding: 0;
+    margin-top: 25px;
+}
+
+.special-offer-description{
+    font-size: 16px;
+    color: var(--dark-gray-2);
+    margin: 0;
+    padding: 0;
+    margin-top: 25px;
+}
+
+.special-offer-btn{
+    width: 200px;
+    font-weight: bold;
+    color: var(--white);
+    background-color: var(--primary);
+    border: none;
+    border-radius: 8px;
+    margin-top: 25px;
+    padding: 15px;
+}
+
+.special-offer-btn:hover{
+    cursor: pointer;
+}
+
 @media(max-width:938px){
     .collections{
         flex-wrap: wrap;

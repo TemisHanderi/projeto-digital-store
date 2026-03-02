@@ -292,7 +292,18 @@ const HomePage = () => {
       >
         <p>card dos produtos aqq</p>
       </Section>
-      {/* outro banner de edição especial */}
+      <div className="special-offer">
+          <div className="image-special-offer">
+            <div className="gradient-circle"></div>
+            <img src="/produc-image-1.png" alt="Air Jordan edição especial" className="img-so"/>
+          </div>
+          <div className="texts-special-offer">
+            <p className="special-offer-subtitle">Oferta Especial</p>
+            <p className="special-offer-title">Air Jordan edição de colecionador</p>
+            <p className="special-offer-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa error eius aperiam tempora labore facilis laudantium corrupti nam adipisci eos velit obcaecati, quos soluta nisi, accusamus temporibus, cum neque odit. lorem</p>
+            <button className="special-offer-btn">Ver Oferta</button>
+          </div>
+        </div>
     </>
   );
 };

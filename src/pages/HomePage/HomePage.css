@@ -42,6 +42,8 @@
 
 .buy-button:hover{
     cursor: pointer;
+    background-color: var(--white);
+    transition: 0.5s ease;
 }
 
 .image-collection{

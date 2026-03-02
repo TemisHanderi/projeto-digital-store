@@ -1,4 +1,4 @@
-import "./footer.css";
+import "./Footer.css";
 import logo from "../../assets/logo-footer.svg";
 import twitter from "../../assets/twitter.svg";
 import instagram from "../../assets/instagram.svg";
@@ -22,9 +22,9 @@ function Footer() {
               </p>
 
               <div className="container-icon">
-                <img className="icon" src={facebook} alt="Logo do Facebook" />
-                <img className="icon" src={instagram} alt="Logo do Instagram" />
-                <img className="icon" src={twitter} alt="Logo do Twitter" />
+                <img className="icon-footer" src={facebook} alt="Logo do Facebook" />
+                <img className="icon-footer" src={instagram} alt="Logo do Instagram" />
+                <img className="icon-footer" src={twitter} alt="Logo do Twitter" />
               </div>
             </div>
 
@@ -64,7 +64,7 @@ function Footer() {
               </div>
             </div>
           </main>
-          <p className="copyright">@ 2022 Digital College</p>
+          <p className="copyright">@ 2026 Digital College</p>
         </div>
       </footer>
     </>

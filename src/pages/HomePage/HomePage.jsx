@@ -293,7 +293,6 @@ const HomePage = () => {
         <p>card dos produtos aqq</p>
       </Section>
       {/* outro banner de edição especial */}
-      {/* <Footer/> */}
     </>
   );
 };

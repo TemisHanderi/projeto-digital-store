@@ -1,0 +1,140 @@
+.gallery {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.galleryContent {
+    min-width: 100%;
+    height: 100%;
+    flex-shrink: 0;
+    position: relative;
+    background-color: var(--light-gray-3);
+}
+
+.galleryContent img{
+    position: absolute;
+    transform: translateY(-50%);
+    top: 325px;
+    right: 50px;
+    width: 55%;
+    object-fit: cover;
+}
+
+.gallery-infos{
+    position: absolute;
+    width: 35%;
+    top: 50%;
+    left: 10%;
+    transform: translateY(-50%);
+    z-index: 2;
+    
+}
+
+.gallery-title{
+    font-size: 72px;
+    font-weight: bold;
+    line-height: 4rem;
+    margin-top: 25px;
+}
+
+.gallery-subtitle{
+    font-size: 18px;
+    color: var(--warning);
+    font-weight: bold;
+}
+
+.gallery-description{
+    font-size: 16px;
+    margin-top: 25px;
+}
+
+.gallery-button{
+    width: 200px;
+    font-weight: bold;
+    color: var(--white);
+    background-color: var(--primary);
+    border: none;
+    border-radius: 8px;
+    margin-top: 25px;
+    padding: 15px;
+}
+
+.gallery-button:hover{
+    cursor: pointer;
+    
+}
+
+.slider-wrapper {
+    position: relative;
+    overflow: hidden;
+}
+
+.slider {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.4s ease;
+}
+
+.gallery-arrow{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.gallery-arrow.left{
+    left: 16px;
+}
+
+.gallery-arrow.right{
+    right: 16px;
+}
+
+.gallery-arrow:disabled{
+    opacity: 0.3;
+}
+
+.gallery-thumbs{
+    display: flex;
+    gap: 12px;
+    z-index: 5;
+}
+
+.gallery-thumbs img{
+    width: 117px;
+    height: 95px;
+    object-fit: cover;
+    cursor: pointer;
+    border: 2px solid transparent;
+}
+
+.gallery-thumbs img.active{
+    border-color: var(--primary);
+}
+
+.gallery-dots {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 16px;
+}
+
+.dot {
+  width: 10px;
+  border-radius: 50%;
+  border: none;
+  background-color: #ccc;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.dot.active {
+  background-color: var(--primary);
+  width: 12px;
+  height: 12px;
+}

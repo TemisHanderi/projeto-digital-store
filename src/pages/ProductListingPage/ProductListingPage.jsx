@@ -3,6 +3,7 @@ import OrderBy from "../../components/OrderBy/OrderBy";
 import FilterGroup from "../../components/FilterGroup/FilterGroup";
 import Section from "../../components/Section";
 import "./ProductListingPage.css";
+import ProductListing from "../../components/ProductListing/ProductListing";
 
 const ProductListingPage = () => {
 
@@ -39,7 +40,7 @@ const ProductListingPage = () => {
 
                     <div className="filter-by">
                         <h2 id="title-filtrar-por">Filtrar por</h2>
-                        
+
                         <FilterGroup
                             title="Marka"
                             inputType="checkbox"
@@ -64,6 +65,7 @@ const ProductListingPage = () => {
                 </section>
 
                 <Section title="Resultados para Tênis - 359 itens" textAlign="left">
+                    <ProductListing />
                 </Section>
 
             </main>

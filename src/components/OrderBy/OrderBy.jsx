@@ -4,7 +4,7 @@ const OrderBy = () => {
 
     return (
         <div className="order-by">
-            <label for="price">Ordenar por:</label>
+            <label htmlFor="price">Ordenar por:</label>
 
             <select name="price" id="price">
                 <option value="menor-preco">menor preço</option>

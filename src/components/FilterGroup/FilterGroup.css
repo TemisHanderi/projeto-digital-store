@@ -1,5 +1,5 @@
 .filter-by-container {
-    width: 308px;
+    max-width: 308px;
     background-color: var(--white);
 }
 

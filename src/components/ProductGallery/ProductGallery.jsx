@@ -27,17 +27,17 @@ const ProductGallery = () => {
   }
 
   return (
-    <div className="gallery">
+    <div className="gallery-product">
 
-      <div className="gallery-main">
-        <button className="arrow left" onClick={prev}>‹</button>
+      <div className="gallery-product-main">
+        <button className="arrow-product left-product" onClick={prev}>‹</button>
 
         <img src={images[current]} alt="" />
 
-        <button className="arrow right" onClick={next}>›</button>
+        <button className="arrow-product right-product" onClick={next}>›</button>
       </div>
 
-      <div className="gallery-thumbs">
+      <div className="gallery-thumbs-product">
         {images.map((img, index) => (
           <img
             key={index}

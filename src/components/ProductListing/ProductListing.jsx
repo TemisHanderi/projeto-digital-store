@@ -1,7 +1,7 @@
 import ProductCard from "../ProductCard/ProductCard";
 import "./ProductListing.css";
 
-const ProductListing = () => {
+const ProductListing = ({limite = 9}) => {
 
     const products = [
         {
@@ -72,7 +72,7 @@ const ProductListing = () => {
     return (
         <>
             <div className="product-listing-container">
-                {products.map((product, index) => (
+                {products.slice(0, limite).map((product, index) => (
                     <ProductCard
                         key={index}
                         productCategory={product.productCategory}

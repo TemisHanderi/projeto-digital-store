@@ -1,0 +1,238 @@
+.product-view-page-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+.section-product {
+  display: flex;
+  justify-content: center;
+  gap: 5%;
+  margin-top: 8rem;
+  margin-bottom: 4rem;
+  width: 80%;
+}
+
+.aside-product {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.aside-product h2 {
+  margin-bottom: 0.6rem;
+  margin-top: 0;
+  font-size: 2.8rem;
+}
+
+.info-product {
+  color: var(--dark-gray-3);
+  margin-top: 0;
+  font-size: 0.9rem;
+}
+
+.rating-product{
+  display:flex;
+  align-items:center;
+  gap:0.8rem;
+  margin-bottom: 0.3rem;
+}
+
+.stars{
+  color: var(--warning);
+  font-size: 1.6rem;
+  display:flex;
+  gap:2px;
+}
+
+.star-empty{
+  color:#ddd;
+}
+
+.rating-score{
+  background: var(--warning);
+  color:white;
+  padding:4px 16px;
+  border-radius:6px;
+  font-weight:600;
+  display:flex;
+  align-items:center;
+  gap:4px;
+}
+
+.rating-count{
+  color:#777;
+  font-size:1.1rem;
+}
+
+.coin-product {
+  padding-right: 0.3rem;
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+  color: var(--dark-gray-3);
+}
+
+.value-product {
+  color: var(--dark-gray-2);
+  font-size: 2.5rem;
+  letter-spacing: 1px;
+}
+
+.cents-product {
+  font-size: 1.2rem;
+  color: var(--dark-gray-2);
+  padding-right: 0.8rem;
+  letter-spacing: 1px;
+}
+
+.dell-price-product {
+  font-size: 1.2rem;
+  color: var(--light-gray-2);
+  letter-spacing: 1px;
+}
+
+.aside-product h3 {
+    color: var(--light-gray);
+    margin-bottom: 0.8rem;
+}
+
+.description-p{
+    margin-top: 0;
+    width: 80%;
+}
+
+.size-product {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.size-product button {
+  appearance: none;
+  cursor: pointer;
+  background-color: var(--white);
+  border: 1px solid var(--light-gray-2);
+  padding: 1rem;
+  border-radius: 5px;
+
+  color: var(--dark-gray-2);
+  font-weight: 700;
+  font-size: larger;
+
+  width: 60px;
+  height: 60px;
+  text-align: center;
+}
+
+.size-product button:hover,
+.size-product button.active {
+  background-color: var(--primary);
+  color: var(--white);
+  border-color: var(--primary);
+}
+
+.color-product{
+  display:flex;
+  gap:1rem;
+  margin-top: 0.5rem;
+  margin-bottom: 2rem;
+  margin-left: 0.4rem;
+}
+
+.color-product input{
+  display:none;
+}
+
+.color{
+  cursor: pointer;
+  width:40px;
+  height:40px;
+  border-radius:50%;
+  transition: transform 0.2s;
+}
+
+.color-blue{
+  background:#62d0db;
+}
+.color-red{
+  background:#ff6b6b;
+}
+.color-gray{
+  background:#555;
+}
+.color-purple{
+  background:#6b6fb4;
+}
+
+.color:hover{
+  transform:scale(1.1);
+}
+
+input:checked + .color{
+  outline:3px solid var(--primary);
+  outline-offset:4px;
+}
+
+.buy-button-product {
+  cursor: pointer;
+  background-color: var(--warning);
+  color: var(--white);
+  border: none;
+  border-radius: 8px;
+  padding: 1rem 0;
+  width: 34%;
+  font-size: 1.2rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin-top: 0.5rem;
+  border: 1px solid var(--warning);
+}
+
+.buy-button-product:hover {
+  background-color: var(--white);
+  color: var(--warning);
+}
+
+.section-relation-product {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 10rem;
+  width: 100%;
+}
+
+.title-relation-product {
+  display: flex;
+  width: 80%;
+  justify-content: space-between;
+  margin-top: 5rem;
+}
+
+.title-relation-product h2 {
+  color: var(--dark-gray-2);
+  font-size: 1.8rem;
+}
+
+.title-relation-product button {
+  appearance: none;
+  cursor: pointer;
+  border: none;
+  background: none;
+
+  color: var(--primary);
+  font-weight: 500;
+  font-size: larger;
+  text-align: center;
+}
+
+.title-relation-product span {
+  font-size: 1.5rem;
+  padding-left: 0.5rem;
+}
+
+.cards-relation-product {
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  margin-top: 1rem;
+}

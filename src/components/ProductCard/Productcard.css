@@ -1,0 +1,41 @@
+.card {
+    width: 280px;
+}
+
+.card-img-top{
+    max-width: 280px;
+}
+.card-body p, .card-body h5{
+  margin: 0;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.card-title {
+    color: var(--light-gray);
+    font-size: 12px;
+}
+
+.card-text.product-name {
+    font-size: 24px;
+    color: var(--dark-gray-2);
+}
+
+.price-group{
+    display: flex;
+    gap: 15px;
+}
+.card-text.product-price {
+    font-size: 24px;
+    color: var(--light-gray);  
+    text-decoration: line-through;
+}
+
+.card-text.product-discount {
+    font-size: 24px;
+    font-weight: 700;
+}

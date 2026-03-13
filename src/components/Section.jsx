@@ -16,7 +16,7 @@ const Section = ({title, textAlign="left", link, children}) => {
                 {(title || link) && (<div className="section-header">
 
                     {title && (<h2 className={`section-title ${align}`}>{title}</h2>)}
-                    {link && (<NavLink to={link.href} className="section-link">{link.text}</NavLink>)}
+                    {link && (<NavLink to={link.href} className="section-link" onClick={() => window.scrollTo({top: 0, behavior: "smooth"})}>{link.text}</NavLink>)}
 
                 </div> )}
 

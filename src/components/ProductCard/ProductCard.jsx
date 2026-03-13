@@ -4,7 +4,7 @@ import "./Productcard.css";
 const ProductCard = ({ productCategory, productName, image, price, priceDiscount }) => {
 
     return (
-      <NavLink to={"/detalhes-item"} className={"link-product-page"}>
+      <NavLink to={"/detalhes-item"} className={"link-product-page"} onClick={() => window.scrollTo({top: 0, behavior: "smooth"})}>
         <div className="card">
           <img src={image} className="card-img-top" alt={productName} />
           <div className="card-body">

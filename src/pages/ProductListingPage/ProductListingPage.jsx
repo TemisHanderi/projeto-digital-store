@@ -65,7 +65,7 @@ const ProductListingPage = () => {
                 </section>
 
                 <Section title="Resultados para Tênis - 359 itens" textAlign="left">
-                    <ProductListing />
+                    <ProductListing limite={32}/>
                 </Section>
 
             </main>

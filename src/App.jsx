@@ -14,13 +14,13 @@ function App() {
                 <Route path="/" element={<Layout/>}>
                     <Route index element={<HomePage/>}/>
                 </Route>
-                <Route path="*" element={<NotFound/>}/>
                 <Route path="produtos" element={<Layout/>}>
                     <Route index element={<ProductListingPage/>}/>
                 </Route>
                 <Route path="detalhes-item" element={<Layout/>}>
                     <Route index element={<ProductViewPage/>} />
                 </Route>
+                <Route path="*" element={<NotFound/>}/>
             </Routes>
         </BrowserRouter>
     </>

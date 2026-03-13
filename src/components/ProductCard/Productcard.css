@@ -4,6 +4,7 @@
 
 .card-img-top{
     max-width: 280px;
+    box-shadow: 15px 15px 25px #dbdbdb;
 }
 .card-body p, .card-body h5{
   margin: 0;

@@ -1,13 +1,90 @@
 import ProductCard from "../ProductCard/ProductCard";
 import "./ProductListing.css";
 
-const ProductListing = ({limite = 9}) => {
+const ProductListing = ({limite}) => {
 
     const products = [
         {
             productCategory: "Tênis",
             productName: "K-Swiss V8 - Masculino",
             image: "public/product-thumb-1.jpeg",
+            price: 200,
+            priceDiscount: 100
+        },
+        {
+            productCategory: "Tênis",
+            productName: "K-Swiss V8 - Masculino",
+            image: "public/product-thumb-2.jpeg",
+            price: 200,
+            priceDiscount: 100
+        },
+        {
+            productCategory: "Tênis",
+            productName: "K-Swiss V8 - Masculino",
+            image: "public/product-thumb-2.jpeg",
+            price: 200,
+            priceDiscount: 100
+        },
+        {
+            productCategory: "Tênis",
+            productName: "K-Swiss V8 - Masculino",
+            image: "public/product-thumb-2.jpeg",
+            price: 200,
+            priceDiscount: 100
+        },
+        {
+            productCategory: "Tênis",
+            productName: "K-Swiss V8 - Masculino",
+            image: "public/product-thumb-2.jpeg",
+            price: 200,
+            priceDiscount: 100
+        },
+        {
+            productCategory: "Tênis",
+            productName: "K-Swiss V8 - Masculino",
+            image: "public/product-thumb-2.jpeg",
+            price: 200,
+            priceDiscount: 100
+        },
+        {
+            productCategory: "Tênis",
+            productName: "K-Swiss V8 - Masculino",
+            image: "public/product-thumb-2.jpeg",
+            price: 200,
+            priceDiscount: 100
+        },
+        {
+            productCategory: "Tênis",
+            productName: "K-Swiss V8 - Masculino",
+            image: "public/product-thumb-2.jpeg",
+            price: 200,
+            priceDiscount: 100
+        },
+        {
+            productCategory: "Tênis",
+            productName: "K-Swiss V8 - Masculino",
+            image: "public/product-thumb-2.jpeg",
+            price: 200,
+            priceDiscount: 100
+        },
+        {
+            productCategory: "Tênis",
+            productName: "K-Swiss V8 - Masculino",
+            image: "public/product-thumb-2.jpeg",
+            price: 200,
+            priceDiscount: 100
+        },
+        {
+            productCategory: "Tênis",
+            productName: "K-Swiss V8 - Masculino",
+            image: "public/product-thumb-2.jpeg",
+            price: 200,
+            priceDiscount: 100
+        },
+        {
+            productCategory: "Tênis",
+            productName: "K-Swiss V8 - Masculino",
+            image: "public/product-thumb-2.jpeg",
             price: 200,
             priceDiscount: 100
         },

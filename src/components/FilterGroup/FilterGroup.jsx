@@ -18,6 +18,7 @@ const FilterGroup = ({ title, inputType, options }) => {
                         type={inputType}
                         value={option.value ?? option.text}
                         className="input-checkbox"
+                        name="option"
                     />
 
                         {option.text}

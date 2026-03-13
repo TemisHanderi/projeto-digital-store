@@ -2,6 +2,7 @@ import "bootstrap-icons/font/bootstrap-icons.css";
 import "./HomePage.css";
 import Section from "../../components/Section";
 import Gallery from "../../components/Gallery";
+import ProductListing from "../../components/ProductListing/ProductListing";
 
 const HomePage = () => {
   return (
@@ -288,9 +289,9 @@ const HomePage = () => {
           </div>
         </div>
       </Section>
-      <Section title="Produtos em alta" textAlign="left" link={{ text: "Ver todos →", href: {} }}
+      <Section title="Produtos em alta" textAlign="left" link={{ text: "Ver todos →", href: "/produtos"}}
       >
-        <p>card dos produtos aqq</p>
+        <ProductListing limite={8}/>
       </Section>
       <div className="special-offer">
           <div className="image-special-offer">

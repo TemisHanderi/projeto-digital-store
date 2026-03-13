@@ -1,6 +1,7 @@
 import "./ProductViewPage.css";
 import ProductGallery from "../../components/ProductGallery/ProductGallery";
 import ProductListing from "../../components/ProductListing/ProductListing";
+import Section from "../../components/Section";
 import { useState } from "react";
 
 const ProductViewPage = () => {
@@ -86,18 +87,9 @@ const ProductViewPage = () => {
           </aside>
         </section>
 
-        <section className="section-relation-product">
-          <div className="title-relation-product">
-            <h2>Produtos Relacionados</h2>
-            <button>
-              Ver Todos <span>&rarr;</span>
-            </button>
-          </div>
-
-          <div className="cards-relation-product">
-            <ProductListing limite={5} />
-          </div>
-        </section>
+        <Section title="Produtos recomendados" textAlign="left" link={{ text: "Ver todos →", href: "/produtos"}}>
+              <ProductListing limite={4}/>
+        </Section>
       </main>
     </>
   );

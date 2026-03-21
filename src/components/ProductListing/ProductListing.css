@@ -1,6 +1,6 @@
 .product-listing-container{
     display: grid;
-    grid-template-columns: repeat(4, auto);
+    grid-template-columns: repeat(3, auto);
     justify-content: space-between;
     flex-wrap: wrap;
     column-gap: 20px;

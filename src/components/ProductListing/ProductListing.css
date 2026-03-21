@@ -1,7 +1,7 @@
 .product-listing-container{
     display: grid;
     grid-template-columns: repeat(3, auto);
-    justify-content: space-between;
+    justify-content: space-evenly;
     flex-wrap: wrap;
     column-gap: 20px;
     row-gap: 50px;

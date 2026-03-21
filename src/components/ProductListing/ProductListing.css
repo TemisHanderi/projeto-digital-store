@@ -1,8 +1,7 @@
 .product-listing-container{
-    display: grid;
-    grid-template-columns: repeat(3, auto);
-    justify-content: space-evenly;
+    display: flex;
     flex-wrap: wrap;
+    justify-content: flex-start;
     column-gap: 20px;
     row-gap: 50px;
 }
